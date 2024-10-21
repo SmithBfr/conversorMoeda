@@ -39,3 +39,34 @@ Este programa usa a [ExchangeRate-API](https://www.exchangerate-api.com/) para o
 1. Clone este repositório.
    ```bash
    git clone https://github.com/seuusuario/conversor-moeda.git
+2. Compile e execute o programa usando o comando:
+  ```bash
+   javac Main.java
+   java Main
+  ```
+
+## Observações
+O programa utiliza a classe HttpURLConnection para fazer solicitações HTTP.
+A resposta da API é manipulada usando a biblioteca Gson para interpretar o JSON retornado.
+
+## Dependências
+Adicione a dependência do Gson ao seu projeto:
+
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.9</version>
+</dependency>
+
+## Melhorias Futuras
+Implementar suporte a mais moedas.
+Adicionar tratamento de exceções para possíveis erros na requisição à API.
+Melhorar a interface com o usuário.
+
+## Licença
+Este projeto está sob a licença MIT.
+Esse `README.md` fornece uma visão geral sobre o programa, como ele funciona, requisitos, e instruções de uso. Certifique-se de adaptar o conteúdo conforme necessário, especialmente na parte da chave da API, caso seja necessário.
+
+
+
+
